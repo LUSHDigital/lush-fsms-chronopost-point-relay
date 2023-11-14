@@ -1,0 +1,16 @@
+{
+    "name": "lushdigital/lush-fsms-chronopost-point-relay",
+    "description": "Package generated from https://www.chronopost.fr/recherchebt-ws-cxf/PointRelaisServiceWS?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSMS\\ChronopostPointRelay\\": "./src/FSMS/ChronopostPointRelay"
+        }
+    }
+}
